@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, MapPin, Users, Trophy, Building, Code, Server, Gamepad2, ArrowRight, Clock } from 'lucide-react';
+import { Calendar, MapPin, Users, Trophy, Building, Code, Server, Gamepad2, ArrowRight, Clock, Shield } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
