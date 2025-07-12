@@ -11,8 +11,8 @@ const Testimonials = () => {
       role: "Content Creator",
       platform: "YouTube",
       avatar: "SS",
-      quote: "PowerDown Hosting has been incredible for our server infrastructure. The performance and reliability have exceeded our expectations. Anish and his team provide exceptional support that keeps our community running smoothly.",
-      longQuote: "Working with PowerDown Hosting has been a game-changer for our content creation. The server performance is outstanding, and the technical support is always there when we need it. Anish understands the unique needs of content creators and delivers solutions that actually work.",
+      quote: "PowerDown Hosting has been incredible for our server infrastructure. With 1000+ clients, they still provide personalized service.",
+      longQuote: "Working with PowerDown Hosting has been a game-changer for our content creation. Despite serving 1000+ clients, the server performance is outstanding, and the technical support is always there when we need it. Anish understands the unique needs of content creators and delivers solutions that actually work.",
       gradient: "from-red-500 to-orange-500",
       subscribers: "50K+",
       serverType: "Minecraft SMP"
@@ -22,8 +22,8 @@ const Testimonials = () => {
       role: "Gaming YouTuber", 
       platform: "YouTube",
       avatar: "NR",
-      quote: "Anish and his team provide exceptional hosting services. Our Minecraft server runs smoothly with zero downtime. The level of professionalism and technical expertise is exactly what we needed for our growing community.",
-      longQuote: "The reliability of PowerDown Hosting is unmatched. We've been running our server for months without any issues. The control panel is intuitive, and the performance optimization they provide has significantly improved our player experience.",
+      quote: "Anish and his team provide exceptional hosting services. With 100+ Minecraft servers under management, they know what they're doing.",
+      longQuote: "The reliability of PowerDown Hosting is unmatched. With their experience managing 100+ Minecraft servers, we've been running our server for months without any issues. The control panel is intuitive, and the performance optimization they provide has significantly improved our player experience.",
       gradient: "from-blue-500 to-purple-500",
       subscribers: "75K+",
       serverType: "Creative Network"
@@ -33,8 +33,8 @@ const Testimonials = () => {
       role: "Minecraft Creator",
       platform: "YouTube", 
       avatar: "NS",
-      quote: "The technical support and server performance from PowerDown Hosting is unmatched. Highly recommended! The team goes above and beyond to ensure our server infrastructure meets our content creation needs.",
-      longQuote: "PowerDown Hosting has enabled us to focus on content creation instead of worrying about server issues. Their proactive monitoring and instant support response times have been crucial for maintaining our upload schedule and community engagement.",
+      quote: "With 4+ years of experience, Anish provides unmatched technical support and server performance. Highly recommended!",
+      longQuote: "PowerDown Hosting, with their 4+ years of experience, has enabled us to focus on content creation instead of worrying about server issues. Their proactive monitoring and instant support response times have been crucial for maintaining our upload schedule and community engagement.",
       gradient: "from-green-500 to-teal-500",
       subscribers: "30K+",
       serverType: "Survival Server"
@@ -44,8 +44,8 @@ const Testimonials = () => {
       role: "Gaming Content Creator",
       platform: "YouTube",
       avatar: "BP", 
-      quote: "Working with Anish has been a game-changer for our hosting needs. Professional service and great performance. The infrastructure they provide has allowed us to scale our community without any technical limitations.",
-      longQuote: "The scalability and performance optimization provided by PowerDown Hosting has been essential for our growth. As our community expanded, they seamlessly upgraded our resources and maintained perfect performance throughout.",
+      quote: "Working with Anish has been a game-changer. Serving 1000+ clients with professional service and great performance.",
+      longQuote: "The scalability and performance optimization provided by PowerDown Hosting has been essential for our growth. Even while serving 1000+ clients, as our community expanded, they seamlessly upgraded our resources and maintained perfect performance throughout.",
       gradient: "from-purple-500 to-pink-500",
       subscribers: "40K+",
       serverType: "Mini-Games Hub"
@@ -54,16 +54,16 @@ const Testimonials = () => {
 
   const clientTypes = [
     { type: "YouTube Creators", count: "15+", icon: Youtube, color: "text-red-400" },
-    { type: "Gaming Communities", count: "200+", icon: Users, color: "text-blue-400" },
-    { type: "Business Clients", count: "150+", icon: Trophy, color: "text-yellow-400" },
+    { type: "Gaming Communities", count: "100+", icon: Users, color: "text-blue-400" },
+    { type: "Business Clients", count: "200+", icon: Trophy, color: "text-yellow-400" },
     { type: "Minecraft Servers", count: "100+", icon: Heart, color: "text-emerald-400" },
   ];
 
   const testimonialStats = [
-    { value: '500+', label: 'Happy Clients', description: 'Satisfied customers worldwide' },
+    { value: '1000+', label: 'Happy Clients', description: 'Satisfied customers worldwide' },
     { value: '99.9%', label: 'Uptime', description: 'Guaranteed service availability' },
     { value: '24/7', label: 'Support', description: 'Round-the-clock assistance' },
-    { value: '<5min', label: 'Response Time', description: 'Average support response' }
+    { value: '4+', label: 'Years Experience', description: 'Industry expertise' }
   ];
 
   useEffect(() => {

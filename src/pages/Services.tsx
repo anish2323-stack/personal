@@ -5,7 +5,7 @@ const Services = () => {
   const services = [
     {
       title: 'Web Hosting',
-      description: 'Premium web hosting solutions with 99.9% uptime guarantee',
+      description: 'Premium web hosting solutions serving 1000+ clients with 99.9% uptime guarantee',
       icon: Server,
       features: ['SSD Storage', 'Free SSL Certificates', '24/7 Support', 'Daily Backups'],
       gradient: 'from-emerald-500 to-green-600',
@@ -13,11 +13,19 @@ const Services = () => {
     },
     {
       title: 'Game Server Hosting',
-      description: 'Optimized hosting for Minecraft and other game servers',
+      description: 'Optimized hosting for 100+ Minecraft servers and gaming communities',
       icon: Gamepad2,
       features: ['DDoS Protection', 'Custom Control Panel', 'Instant Setup', 'Mod Support'],
       gradient: 'from-cyan-500 to-blue-600',
       popular: true
+    },
+    {
+      title: 'UltraVM Hosting',
+      description: 'Enterprise-grade virtual machines and cloud infrastructure solutions',
+      icon: Cloud,
+      features: ['High Performance VMs', 'Scalable Resources', 'Enterprise Support', 'Global Network'],
+      gradient: 'from-purple-500 to-indigo-600',
+      popular: false
     },
     {
       title: 'DDoS Protection',
@@ -28,16 +36,8 @@ const Services = () => {
       popular: false
     },
     {
-      title: 'Cloud Infrastructure',
-      description: 'Scalable cloud solutions with UltraVM partnership',
-      icon: Cloud,
-      features: ['Auto Scaling', 'Load Balancing', 'Global CDN', 'API Access'],
-      gradient: 'from-purple-500 to-pink-600',
-      popular: false
-    },
-    {
       title: 'Minecraft Development',
-      description: 'Custom plugin development and server optimization',
+      description: 'Custom plugin development and server optimization for 100+ servers',
       icon: Code,
       features: ['Custom Plugins', 'Server Optimization', 'Database Design', 'Performance Tuning'],
       gradient: 'from-green-500 to-teal-600',
@@ -45,7 +45,7 @@ const Services = () => {
     },
     {
       title: 'Infrastructure Consulting',
-      description: 'Expert guidance for scaling your digital infrastructure',
+      description: 'Expert guidance for scaling digital infrastructure - 4+ years experience',
       icon: Zap,
       features: ['Architecture Review', 'Performance Optimization', 'Security Audit', 'Migration Planning'],
       gradient: 'from-orange-500 to-red-600',
@@ -81,10 +81,10 @@ const Services = () => {
   ];
 
   const testimonialStats = [
-    { value: '500+', label: 'Happy Clients' },
-    { value: '99.9%', label: 'Uptime' },
+    { value: '1000+', label: 'Happy Clients' },
+    { value: '100+', label: 'Minecraft Servers' },
     { value: '24/7', label: 'Support' },
-    { value: '<5min', label: 'Response Time' }
+    { value: '4+', label: 'Years Experience' }
   ];
 
   return (

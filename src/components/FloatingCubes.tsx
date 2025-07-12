@@ -1,34 +1,34 @@
 import React from 'react';
 
 const FloatingCubes = () => {
-  const cubes = Array.from({ length: 35 }, (_, i) => ({
+  const cubes = Array.from({ length: 15 }, (_, i) => ({
     id: i,
     size: Math.random() * 50 + 20,
     left: Math.random() * 100,
-    animationDelay: Math.random() * 30,
-    animationDuration: Math.random() * 30 + 25,
+    animationDelay: Math.random() * 20,
+    animationDuration: Math.random() * 20 + 15,
     opacity: Math.random() * 0.4 + 0.1,
     rotationSpeed: Math.random() * 2 + 1,
   }));
 
-  const particles = Array.from({ length: 120 }, (_, i) => ({
+  const particles = Array.from({ length: 40 }, (_, i) => ({
     id: i,
     size: Math.random() * 4 + 1,
     left: Math.random() * 100,
     top: Math.random() * 100,
     opacity: Math.random() * 0.8 + 0.2,
     animationDelay: Math.random() * 8,
-    animationDuration: Math.random() * 4 + 3,
+    animationDuration: Math.random() * 6 + 4,
   }));
 
-  const geometricShapes = Array.from({ length: 15 }, (_, i) => ({
+  const geometricShapes = Array.from({ length: 8 }, (_, i) => ({
     id: i,
     size: Math.random() * 30 + 15,
     left: Math.random() * 100,
     top: Math.random() * 100,
     opacity: Math.random() * 0.3 + 0.1,
     animationDelay: Math.random() * 12,
-    animationDuration: Math.random() * 40 + 30,
+    animationDuration: Math.random() * 25 + 20,
     shape: Math.random() > 0.5 ? 'circle' : 'square',
     gradient: [
       'from-purple-500 to-pink-500',
@@ -39,7 +39,7 @@ const FloatingCubes = () => {
     ][Math.floor(Math.random() * 5)]
   }));
 
-  const matrixRain = Array.from({ length: 20 }, (_, i) => ({
+  const matrixRain = Array.from({ length: 8 }, (_, i) => ({
     id: i,
     left: Math.random() * 100,
     animationDelay: Math.random() * 5,
@@ -64,7 +64,7 @@ const FloatingCubes = () => {
             transform: 'rotate(45deg)',
             opacity: cube.opacity,
             borderRadius: '8px',
-            boxShadow: `0 0 ${cube.size/2}px rgba(16, 185, 129, 0.3)`,
+            boxShadow: `0 0 ${cube.size/3}px rgba(16, 185, 129, 0.2)`,
           }}
         />
       ))}
@@ -83,7 +83,7 @@ const FloatingCubes = () => {
             opacity: particle.opacity,
             animationDelay: `${particle.animationDelay}s`,
             animationDuration: `${particle.animationDuration}s`,
-            boxShadow: `0 0 ${particle.size * 2}px rgba(16, 185, 129, 0.5)`,
+            boxShadow: `0 0 ${particle.size}px rgba(16, 185, 129, 0.3)`,
           }}
         />
       ))}
@@ -102,7 +102,7 @@ const FloatingCubes = () => {
             opacity: shape.opacity,
             animationDelay: `${shape.animationDelay}s`,
             animationDuration: `${shape.animationDuration}s`,
-            boxShadow: `0 0 ${shape.size}px rgba(16, 185, 129, 0.2)`,
+            boxShadow: `0 0 ${shape.size/2}px rgba(16, 185, 129, 0.1)`,
           }}
         />
       ))}
@@ -122,9 +122,9 @@ const FloatingCubes = () => {
       ))}
 
       {/* Ambient Light Effects */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-500 rounded-full opacity-5 blur-3xl animate-pulse-glow"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500 rounded-full opacity-5 blur-3xl animate-pulse-glow" style={{ animationDelay: '1s' }}></div>
-      <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-blue-500 rounded-full opacity-5 blur-3xl animate-pulse-glow" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-emerald-500 rounded-full opacity-3 blur-3xl animate-pulse-glow"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-cyan-500 rounded-full opacity-3 blur-3xl animate-pulse-glow" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-blue-500 rounded-full opacity-3 blur-3xl animate-pulse-glow" style={{ animationDelay: '2s' }}></div>
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900/50 via-transparent to-gray-900/50 pointer-events-none"></div>

@@ -8,9 +8,9 @@ const Experience = () => {
       role: "CEO & Founder",
       period: "Dec 2024 - Present",
       duration: "Current",
-      description: "Founded and leading PowerDown Hosting, serving hundreds of clients including active YouTubers. Built the company from ground up with focus on premium hosting solutions and exceptional customer service.",
+      description: "Founded and leading PowerDown Hosting, serving 1000+ clients including active YouTubers. Built the company from ground up with focus on premium hosting solutions and exceptional customer service.",
       achievements: [
-        "Grew client base to 500+ active users",
+        "Grew client base to 1000+ active users",
         "Achieved 99.9% uptime across all services",
         "Established partnerships with major content creators",
         "Implemented enterprise-grade DDoS protection"
@@ -26,10 +26,10 @@ const Experience = () => {
       role: "Managing Partner",
       period: "2024 - Present", 
       duration: "Current",
-      description: "Currently managing SwaggerCloud Hosting operations, partnering with UltraVM for enterprise solutions. Focus on scalable cloud infrastructure and business-grade hosting services.",
+      description: "Currently managing SwaggerCloud Hosting operations, partnering with UltraVM for enterprise solutions. Serving 200+ business clients with scalable cloud infrastructure.",
       achievements: [
         "Established UltraVM partnership",
-        "Developed enterprise client solutions",
+        "Serving 200+ business clients",
         "Implemented advanced cloud infrastructure",
         "Created scalable hosting architectures"
       ],
@@ -40,15 +40,33 @@ const Experience = () => {
       type: "management"
     },
     {
+      company: "UltraVM",
+      role: "Infrastructure Partner",
+      period: "2024 - Present",
+      duration: "Current",
+      description: "Partnering with UltraVM to provide enterprise-grade virtual machine hosting and cloud infrastructure solutions for demanding business clients.",
+      achievements: [
+        "Established enterprise VM hosting services",
+        "Implemented high-performance infrastructure",
+        "Provided 24/7 enterprise support",
+        "Scaled to serve enterprise clients"
+      ],
+      icon: Server,
+      color: "text-purple-400",
+      gradient: "from-purple-500 to-indigo-500",
+      current: true,
+      type: "partnership"
+    },
+    {
       company: "FusionOX Hosting",
       role: "Tech & Development Lead",
       period: "2024",
       duration: "6 months",
-      description: "Led technical development and infrastructure optimization for hosting services. Focused on performance improvements and system architecture design.",
+      description: "Led technical development and infrastructure optimization for hosting services. Managed 50+ servers and focused on performance improvements.",
       achievements: [
         "Optimized server performance by 40%",
+        "Managed 50+ server infrastructure",
         "Implemented automated deployment systems",
-        "Designed scalable infrastructure architecture",
         "Led development team of 5 engineers"
       ],
       icon: Code,
@@ -62,12 +80,12 @@ const Experience = () => {
       role: "CEO",
       period: "2024",
       duration: "3 months",
-      description: "Managed hosting operations and client relationships. Gained valuable experience in business operations and customer service excellence.",
+      description: "Managed hosting operations serving 100+ clients. Gained valuable experience in business operations and customer service excellence.",
       achievements: [
+        "Served 100+ active clients",
         "Streamlined customer support processes",
         "Improved client satisfaction ratings",
-        "Implemented new billing systems",
-        "Expanded service offerings"
+        "Implemented new billing systems"
       ],
       icon: Building,
       color: "text-cyan-400",
@@ -78,12 +96,12 @@ const Experience = () => {
     {
       company: "Anchor Hosting",
       role: "CEO & Founder",
-      period: "2023",
+      period: "2021-2023",
       duration: "Foundation Period",
-      description: "First venture into the hosting industry, foundation of expertise. Learned fundamental business operations and technical infrastructure management.",
+      description: "First venture into the hosting industry over 4+ years ago, foundation of expertise. Learned fundamental business operations and technical infrastructure management.",
       achievements: [
         "Established first hosting company",
-        "Built initial client base",
+        "Built initial client base of 200+ users",
         "Learned industry fundamentals",
         "Developed core technical skills"
       ],
@@ -96,14 +114,18 @@ const Experience = () => {
   ];
 
   const minecraftProjects = [
-    { name: "LavaMC", role: "Lead Developer", status: "Active", players: "2000+" },
-    { name: "AnchorMC", role: "Founder & Developer", status: "Legacy", players: "1500+" },
-    { name: "FusionMC", role: "Technical Lead", status: "Active", players: "1800+" },
-    { name: "MineZillaMC", role: "Developer", status: "Active", players: "1200+" },
-    { name: "NepiZMC", role: "Consultant", status: "Active", players: "800+" },
-    { name: "LaliMC", role: "Developer", status: "Legacy", players: "600+" },
-    { name: "EterNityMC", role: "Technical Advisor", status: "Active", players: "1000+" },
-    { name: "ExtremeNetwork", role: "Infrastructure Lead", status: "Active", players: "2500+" }
+    { name: "LavaMC", role: "Lead Developer", status: "Active", servers: "15+", players: "5000+" },
+    { name: "AnchorMC", role: "Founder & Developer", status: "Legacy", servers: "8+", players: "3000+" },
+    { name: "FusionMC", role: "Technical Lead", status: "Active", servers: "12+", players: "4000+" },
+    { name: "MineZillaMC", role: "Developer", status: "Active", servers: "10+", players: "3500+" },
+    { name: "NepiZMC", role: "Consultant", status: "Active", servers: "6+", players: "2000+" },
+    { name: "LaliMC", role: "Developer", status: "Legacy", servers: "5+", players: "1500+" },
+    { name: "EterNityMC", role: "Technical Advisor", status: "Active", servers: "8+", players: "2500+" },
+    { name: "ExtremeNetwork", role: "Infrastructure Lead", status: "Active", servers: "20+", players: "6000+" },
+    { name: "Token SMP", role: "Lead Architect", status: "Active", servers: "25+", players: "8000+" },
+    { name: "CraftVerse", role: "Technical Director", status: "Active", servers: "18+", players: "5500+" },
+    { name: "PixelCraft", role: "Infrastructure Lead", status: "Active", servers: "14+", players: "4200+" },
+    { name: "SkyRealms", role: "Senior Developer", status: "Active", servers: "11+", players: "3800+" }
   ];
 
   const skills = [

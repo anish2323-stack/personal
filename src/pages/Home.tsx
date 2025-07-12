@@ -35,9 +35,9 @@ const Home = () => {
     { 
       icon: Gamepad2, 
       value: '100+', 
-      label: 'Gaming Communities', 
+      label: 'Minecraft Servers', 
       color: 'text-cyan-400', 
-      description: 'Minecraft servers powered',
+      description: 'Servers managed and optimized',
       gradient: 'from-cyan-500 to-blue-600',
       target: 100
     },
@@ -450,7 +450,7 @@ const Home = () => {
                   </div>
                 </div>
                 <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                  Serving over 1000+ clients including active YouTubers with enterprise-grade hosting solutions, 
+                  Serving 1000+ clients including active YouTubers with enterprise-grade hosting solutions, 
                   99.9% uptime guarantee, and 24/7 premium support.
                 </p>
                 <div className="grid grid-cols-3 gap-4 mb-6">
@@ -463,8 +463,8 @@ const Home = () => {
                     <div className="text-gray-400 text-sm">Uptime</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-400">24/7</div>
-                    <div className="text-gray-400 text-sm">Support</div>
+                    <div className="text-2xl font-bold text-blue-400">4+</div>
+                    <div className="text-gray-400 text-sm">Years</div>
                   </div>
                 </div>
                 <div className="flex items-center text-emerald-400 group-hover:text-emerald-300 transition-colors">
@@ -482,31 +482,31 @@ const Home = () => {
                   </div>
                   <div>
                     <h3 className="text-3xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                      Gaming Infrastructure
+                      Minecraft Server Networks
                     </h3>
-                    <p className="text-cyan-400 text-lg">Minecraft Server Networks</p>
+                    <p className="text-cyan-400 text-lg">100+ Servers Managed</p>
                   </div>
                 </div>
                 <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                  Building the biggest Minecraft server brands with innovative gameplay, 
-                  serving 100+ gaming communities worldwide with custom solutions.
+                  Managing 100+ Minecraft servers with innovative gameplay mechanics, 
+                  serving gaming communities worldwide with custom solutions and 4+ years expertise.
                 </p>
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-cyan-400">100+</div>
-                    <div className="text-gray-400 text-sm">Communities</div>
+                    <div className="text-gray-400 text-sm">Servers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-400">8+</div>
+                    <div className="text-2xl font-bold text-blue-400">12+</div>
                     <div className="text-gray-400 text-sm">Networks</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-400">Custom</div>
-                    <div className="text-gray-400 text-sm">Solutions</div>
+                    <div className="text-2xl font-bold text-purple-400">4+</div>
+                    <div className="text-gray-400 text-sm">Years</div>
                   </div>
                 </div>
                 <div className="flex items-center text-cyan-400 group-hover:text-cyan-300 transition-colors">
-                  <span className="mr-3 font-semibold">View Networks</span>
+                  <span className="mr-3 font-semibold">View Servers</span>
                   <ArrowRight className="group-hover:translate-x-2 transition-transform" size={20} />
                 </div>
               </div>
